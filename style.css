@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+:root {
+  --color1: #0c0a2a;
+  --color2: #fbc91b;
+}
+
+/* Navbar Start */
+.navbar {
+  background: var(--color1);
+}
+.nav-link {
+  color: #fff;
+  display: block;
+  padding: 0 20px !important;
+}
+.nav-link:hover {
+  color: var(--color2);
+}
+/* Navbar End */
+.hero_part {
+  position: relative;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -3;
+}
+.background video {
+  width: 100%;
+}
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -2;
+  padding: 195px 0 75px;
+}
+
+.hero_con p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  padding: 15px 0;
+}
+.client_part {
+  padding: 60px 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.client_head {
+  padding-bottom: 60px;
+}
+.client_head h5 {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.about_part {
+  padding: 60px 0;
+}
+.about_con {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px 0px #00000040;
+}
+
+.choose_head h2 {
+  font-size: 46px;
+}
+.choose_con h5 {
+  font-size: 30px;
+  color: var(--color2);
+}
+.choose_con h4 {
+  font-size: 24px;
+  color: #000;
+}
+
+.analytics_part {
+  padding: 90px 0 0;
+}
+.analytics_con h4 {
+  font-size: 30px;
+  color: var(--color2);
+}
+.analytics_con h5 {
+  font-size: 24px;
+  color: #000;
+}
+
+.membership_part {
+  height: 240px;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+.membership_part > .container {
+  position: relative;
+}
+.mem_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+.mem_background video {
+  width: 100%;
+}
+.mem_overlay {
+  width: 100%;
+  height: 240px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100px 0;
+}
+
+.footer_con {
+  background: var(--color1);
+}
